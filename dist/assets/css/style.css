@@ -112,6 +112,21 @@ textarea:focus {
   color: #666;
 }
 
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.faded {
+  animation-name: faded;
+  animation-duration: 1s;
+}
+
 .button {
   padding: 2.5rem 0rem;
   font-size: 1.7rem;
